@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* home section  */
+.banner{
+    background: linear-gradient(rgba(242, 172, 51, 0.2),rgba(173, 112, 6, 0.4)),url('../images/bg.jpg')no-repeat center center/cover;
+    height: 100vh;
+}
+
+article{
+    font-size: 1rem;
+    border: 2px solid white;
+    height: 50%;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+article h1[class~="h-secondary"]{
+    margin-bottom: 20px;
+
+}
+article :nth-child(2){
+    margin-bottom: 20px;
+}
+
+article .btn {
+    margin-top: 20px;
+}
+
+
+/* utility classes  */
+.h-primary{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.h-secondary{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.orange{
+    color: orange;
+}
+
+#facebook{
+    font-weight: bold;
+}
+
+.btn{
+    padding: 5px 8px;
+    background: transparent;
+    border: 2px solid orange;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: orange;
+    transition: color 2s,background-color 0.7s ease-in;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
